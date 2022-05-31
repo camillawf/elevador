@@ -1,0 +1,50 @@
+public class Elevador { 
+  private int AndarAtual, NumeroTotal, Capacidade, Pessoas; 
+
+  public Elevador(int AndarAtual, int NumeroTotal, int Capacidade, int Quantidade) { 
+    this.AndarAtual = AndarAtual; 
+    this.NumeroTotal = NumeroTotal; 
+    this.Capacidade = Capacidade; 
+    this.Quantidade = Quantidade; 
+  } 
+
+  public int getCapacidade()    { 				 
+    return this.Capacidade;} 
+   
+  public int getQuantidade()    { 
+    return this.Quantidade;} 					
+  
+  public int getNumeroTotal()    { 
+    return this.NumeroTotal;} 				
+  
+  public int getAndarAtual()    { 			
+    return this.AndarAtual;} 
+  
+  public void setQuantidade(int Quantidade){ 
+    this.Quantidade = Quantidade;} 					 
+	
+  public void ElevadorFuncionando(int nCap,int Total){ 
+    this.Total   = Total; 
+    this.Capacidade = Capacidade; 
+  } 
+
+  public void EntraUm(){ 
+    this.Quantidade+=1; 
+  } 
+
+  public void SaiUm(){ 
+    this.Quantidade-=1; 
+  } 
+
+  public void SobeAndar(){ 
+    this.nAtual+=1; 
+  } 
+
+  public void DesceAndar(){ 
+    this.nAtual-=1; 
+  } 
+   public void setAndarDesejado(int andarDesejado) {
+		this.andarDesejado = andarDesejado;
+	}
+
+}
